@@ -153,6 +153,10 @@ namespace ts.InlayHints {
                 return;
             }
 
+            if (preferences.includeInlayParameterNameHintsMinCount && preferences.includeInlayParameterNameHintsMinCount > args.length) {
+                return;
+            };
+
             for (let i = 0; i < args.length; ++i) {
                 const originalArg = args[i];
                 const arg = skipParentheses(originalArg);

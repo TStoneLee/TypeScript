@@ -8798,6 +8798,7 @@ namespace ts {
         readonly jsxAttributeCompletionStyle?: "auto" | "braces" | "none";
         readonly includeInlayParameterNameHints?: "none" | "literals" | "all";
         readonly includeInlayParameterNameHintsWhenArgumentMatchesName?: boolean;
+        readonly includeInlayParameterNameHintsMinCount?: number;
         readonly includeInlayFunctionParameterTypeHints?: boolean,
         readonly includeInlayVariableTypeHints?: boolean;
         readonly includeInlayPropertyDeclarationTypeHints?: boolean;

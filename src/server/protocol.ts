@@ -3462,6 +3462,7 @@ namespace ts.server.protocol {
 
         readonly includeInlayParameterNameHints?: "none" | "literals" | "all";
         readonly includeInlayParameterNameHintsWhenArgumentMatchesName?: boolean;
+        readonly includeInlayParameterNameHintsMinCount?: number;
         readonly includeInlayFunctionParameterTypeHints?: boolean,
         readonly includeInlayVariableTypeHints?: boolean;
         readonly includeInlayPropertyDeclarationTypeHints?: boolean;
